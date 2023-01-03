@@ -1,0 +1,13 @@
+name: chameleon-env
+channels:
+- pytorch
+dependencies:
+- python=3
+- pytorch::pytorch
+- pytorch::torchvision
+- tensorboard
+- tensorflow-gpu
+- pip
+- pip:
+    - pytorchcv
+    - numpy
